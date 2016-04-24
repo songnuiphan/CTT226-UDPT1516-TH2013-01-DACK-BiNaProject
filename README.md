@@ -2,9 +2,11 @@
 
 **BiNaManager** Đây là trang web quản lý của khách sạn "BiNa Hotel" được viết bởi nhóm BiNa . Thời gian nộp: Theo Timeline của project.
 
-Danh sách sinh viên: 
-1212015 Phan Long Ánh - 1212535 Bùi Thị Thanh Xuân
-1212283 Phan Sông Núi - 1312379 Nguyễn Thị Bích Ngân
+* Danh sách sinh viên: 
+* 1212015 Phan Long Ánh
+* 1212535 Bùi Thị Thanh Xuân
+* 1212283 Phan Sông Núi
+* 1312379 Nguyễn Thị Bích Ngân
 
 URL: **Our Heroku URL will be here**
 ## Mô tả
@@ -121,11 +123,11 @@ Danh sách chức năng **nâng cao**:
 * [ ] Sử dụng nhiều API. 
 
 * Sử dụng frameworks: 
-* [ ]jQuery. 
-* [ ]CSS framework: bootstrap, foundation,...
-* [ ]Backend Framework: MEAN, Sails, Meteor. 
-* [ ]Front-end Framework: Angular JS 1, Angular JS 2, Ember, Backbone, React,... 
-* [ ]Front-end Framework: Angular JS 1, Angular JS 2, Ember, Backbone, React,...
+* [ ] jQuery. 
+* [ ] CSS framework: bootstrap, foundation,...
+* [ ] Backend Framework: MEAN, Sails, Meteor. 
+* [ ] Front-end Framework: Angular JS 1, Angular JS 2, Ember, Backbone, React,... 
+* [ ] Front-end Framework: Angular JS 1, Angular JS 2, Ember, Backbone, React,...
 
 ## Video Walkthrough
 
