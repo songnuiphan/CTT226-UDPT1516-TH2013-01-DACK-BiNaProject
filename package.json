@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/songnuiphan/CTT226-UDPT1516-TH2013-01-DACK-BiNaProject/issues"
   },
-  "homepage": "https://github.com/songnuiphan/CTT226-UDPT1516-TH2013-01-DACK-BiNaProject#readme"
+  "homepage": "https://github.com/songnuiphan/CTT226-UDPT1516-TH2013-01-DACK-BiNaProject#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.4.14",
+    "mongoose-aggregate-paginate": "^1.0.4",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-alpha6",
+    "serve-favicon": "^2.3.0"
+  }
 }
