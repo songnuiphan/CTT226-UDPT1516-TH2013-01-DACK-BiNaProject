@@ -21,8 +21,28 @@ router.post('/register', function(req, res, next) {
         console.log('Signup: ' + err);
         console.log('Signup: ' + data);
     });
-    res.redirect('/');
+    res.redirect('/login');
 });
 
+router.get('/login', function(req, res, next) {
+    res.render('./user/login', {});
+});
 
-module.exports = router;
+exports.router = router;
+
+
+/**
+ * Session
+ */
+
+exports.session = login;
+
+/**
+ * Login
+ */
+
+function login(req, res) {
+    const redirectTo = req.session.returnTo ? req.session.returnTo : '/';
+    delete req.session.returnTo;
+    res.redirect(redirectTo);
+}
