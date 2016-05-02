@@ -10,6 +10,7 @@ var userSchema = new Schema({
     type: { type: Number, default: '' },
     name: { type: String, default: '' },
     position: { type: String, default: '' },
+    birthday: Date,
     sex: { type: Number, default: '' },
     address: { type: String, default: '' },
     phone: { type: String, default: '' },

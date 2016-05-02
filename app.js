@@ -3,6 +3,10 @@ var path = require('path');
 var favicon = require('serve-favicon');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
+var passport = require('passport');
+var session = require('express-session');
+var flash = require('connect-flash');
 
 var indexes = require('./routes/index');
 
@@ -10,6 +14,7 @@ var indexes = require('./routes/index');
 var server_ip_address = '0.0.0.0';
 var server_port = 3000;
 
+mongoose.connect('mongodb://panota.ddns.net:27017/bina'); // connect to our database
 var app = express();
 
 // view engine setup
