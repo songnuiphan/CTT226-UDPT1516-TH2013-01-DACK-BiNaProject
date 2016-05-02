@@ -1,0 +1,60 @@
+extends ../layout/layout.pug
+
+block userstyle
+  link(rel='stylesheet', href='styles/bootstrap-datepicker3.min.css', type='text/css')
+
+block userscript
+  script(type='text/javascript', src='scripts/bootstrap-datepicker.min.js')
+
+
+block content
+  .section-header.onscroll-animate(data-animation='fadeInLeft')
+    h1 Đăng ký
+  .row
+    .col-md-3
+    // .col-md-3
+    .col-md-6
+      .row
+        form.form-horizontal(role='form', method='post', action='/register')
+          .form-group
+            label.control-label.col-sm-3(for='username') Tên đăng nhập:
+            .col-sm-9
+              input#username.form-control(type='text', name='username', placeholder='Nhập tên tài khoản')
+          .form-group
+            label.control-label.col-sm-3(for='email') Email:
+            .col-sm-9
+              input#email.form-control(type='text', name='email', placeholder='Nhập email')
+          .form-group
+            label.control-label.col-sm-3(for='password') Mật khẩu:
+            .col-sm-9
+              input#password.form-control(type='password', name='password', placeholder='Nhập mật khẩu')
+          .form-group
+            label.control-label.col-sm-3(for='repassword') Xác nhận mật khẩu:
+            .col-sm-9
+              input#repassword.form-control(type='password', name='repassword', placeholder='Nhập lại mật khẩu')
+          .form-group
+            label.control-label.col-sm-3(for='name') Họ Tên:
+            .col-sm-9
+              input#name.form-control(type='text', name='name', placeholder='Nhập họ và tên')
+          .form-group
+            label.control-label.col-sm-3(for='birthday') Ngày sinh:
+            .col-sm-9
+              //input#birthday.form-control(type='date', name='birthday', placeholder='mm/dd/yyyy')
+              input#birthday.form-control(name='birthday', data-provide='datepicker', placeholder='mm/dd/yyyy')
+          .form-group
+            label.control-label.col-sm-3(for='sex') Giới tính:
+            .col-sm-9
+              //input#sex.form-control(type='text', name='sex', placeholder='Nhập giới tính')
+              select#sex.form-control(name='sex')
+                option(value='1') Nam
+                option(value='2') Nữ
+          .form-group
+            label.control-label.col-sm-3(for='address') Địa chỉ:
+            .col-sm-9
+              input#address.form-control(type='text', name='address', placeholder='Nhập địa chỉ')
+          .form-group
+            .col-sm-offset-3.col-sm-9
+              button.btn.btn-default(type='submit') Đăng ký
+    // .col-md-9
+    .col-md-3
+  // .row
