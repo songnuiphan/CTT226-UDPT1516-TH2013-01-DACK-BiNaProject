@@ -1,0 +1,367 @@
+doctype html
+//if IE 7 
+  html.isie.ie7.oldie.no-js(lang='en-gb')  
+//if IE 8 
+  html.isie.ie8.oldie.no-js(lang='en-gb')  
+//if IE 9 
+  html.isie.ie9.no-js(lang='en-gb')  
+// [if (gt IE 9)|!(IE)] <!
+html.no-js(lang='en-gb', xml:lang='en-gb')
+  // <![endif]
+  head
+    meta(charset='utf-8')
+    //if lt IE 9
+      meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    meta(name='author', content='Aleš Trunda alestrunda.cz')
+    meta(name='robots', content='index, follow')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    //link(rel='icon', href='icon.png', type='image/png')
+    //if lt IE 9
+      script(src='//html5shim.googlecode.com/svn/trunk/html5.js')
+    // Google Fonts
+    link(href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,500,400italic,500italic%7CMontserrat:400,700', rel='stylesheet', type='text/css')
+    // Icon-Font
+    link(rel='stylesheet', href='styles/font-awesome.min.css', type='text/css')
+    //if IE 7
+      link(rel='stylesheet', href='font-awesome/font-awesome/css/font-awesome-ie7.min.css', type='text/css')
+    link(rel='stylesheet', href='styles/font-awesome.min.css', type='text/css')
+    link(rel='stylesheet', href='styles/bootstrap.min.css', type='text/css')
+    link(rel='stylesheet', href='styles/stroll.min.css', type='text/css')
+    link(rel='stylesheet', href='styles/owl.carousel.css', type='text/css')
+    link(rel='stylesheet', href='styles/animate.min.css', type='text/css')
+    link(rel='stylesheet', href='styles/lightbox.css', type='text/css')
+    link#main-stylesheet(rel='stylesheet', href='styles/main.css', type='text/css')
+    link(rel='stylesheet', href='styles/flexslider.min.css', type='text/css')
+    block userstyle
+    title Hometastic | Property Single
+    script(type='text/javascript', src='scripts/modernizr.js')
+    style.
+      #theme-customizer {
+      font-size: 15px;
+      position: fixed;
+      background-color: #FFF;
+      width: 290px;
+      left: -290px;
+      top: 50px;
+      color: #000;
+      -webkit-transition: left 0.7s ease-out;
+      -moz-transition: left 0.7s ease-out;
+      -o-transition: left 0.7s ease-out;
+      transition: left 0.7s ease-out;
+      font-style: italic;
+      text-align: center;
+      padding: 0 5px 5px 5px;
+      z-index: 99999;
+      border: 1px #e1e1e1 solid;
+      border-left: none;
+      }
+      #theme-customizer.active {
+      left: 0;
+      }
+      #theme-customizer .customizer-heading {
+      font-size: 20px;
+      margin: 25px 0;
+      }
+      #theme-customizer .customizer-info {
+      color: #969696;
+      font-size: 13px;
+      }
+      #theme-customizer hr {
+      margin: 20px auto;
+      height: 1px;
+      width: 80%;
+      background-color: #e8e8e8;
+      }
+      #theme-customizer-trigger {
+      position: absolute;
+      background-color: #FFF;
+      width: 50px;
+      height: 50px;
+      right: -50px;
+      top: -1px;
+      font-size: 27px;
+      line-height: 50px;
+      text-align: center;
+      cursor: pointer;
+      border: 1px #e1e1e1 solid;
+      border-left: none;
+      }
+      .theme-setting {
+      width: 54px;
+      height: 54px;
+      display: inline-block;
+      margin: 0px 2px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      border: 2px #FFF solid;
+      -webkit-transition: border 0.2s ease-out;
+      -moz-transition: border 0.2s ease-out;
+      -o-transition: border 0.2s ease-out;
+      transition: border 0.2s ease-out;
+      cursor: pointer;
+      }
+      .theme-setting.theme-pattern {
+      border-color: #E1E1E1;
+      }
+      .theme-setting:hover {
+      border-color: #B1B1B1;
+      }
+      .theme-setting.active {
+      border-color: #B1B1B1;
+      }
+  body
+    #theme-customizer
+      #theme-customizer-trigger
+        i.fa.fa-gears
+      p.customizer-heading Live Customizer
+      hr
+      p Color Changer
+      .theme-setting.theme-stylesheet.active(style='background-color:#51bbe5', data-stylesheet='styles/main.css')
+      .theme-setting.theme-stylesheet(style='background-color:#336699', data-stylesheet='skins/dark-blue.css')
+      .theme-setting.theme-stylesheet(style='background-color:#8cc739', data-stylesheet='skins/light-green.css')
+      .theme-setting.theme-stylesheet(style='background-color:#ba6222', data-stylesheet='skins/brown.css')
+      .theme-setting.theme-stylesheet(style='background-color:#cc0000', data-stylesheet='skins/red.css')
+      .theme-setting.theme-stylesheet(style='background-color:#ff717e', data-stylesheet='skins/pink.css')
+      .theme-setting.theme-stylesheet(style='background-color:#7aba7a', data-stylesheet='skins/dark-green.css')
+      .theme-setting.theme-stylesheet(style='background-color:#84596b', data-stylesheet='skins/purple.css')
+      .theme-setting.theme-stylesheet(style='background-color:#ff9900', data-stylesheet='skins/orange.css')
+      hr
+      p Pattern/Background Changer
+      .theme-setting.theme-pattern.active(style='background:#FFF', data-background='#FFF')
+      .theme-setting.theme-pattern(style="background:url('images/patterns/1.jpg')", data-background="url('images/patterns/1.jpg')")
+      .theme-setting.theme-pattern(style="background:url('images/patterns/2.jpg')", data-background="url('images/patterns/2.jpg')")
+      .theme-setting.theme-pattern(style="background:url('images/patterns/3.jpg')", data-background="url('images/patterns/3.jpg')")
+      .theme-setting.theme-pattern(style="background:url('images/patterns/4.jpg')", data-background="url('images/patterns/4.jpg')")
+      hr
+      p.customizer-info
+        | New skins can be easily made by changing few variables in less stylesheet so it can fit for example your logo colors.
+    #page-loader
+      .centered-columns
+        .centered-column
+          img(alt='loader', src='images/loader.gif')
+    header#header-section
+      .site-top
+        .container.clearfix
+          .pull-left
+            span.site-top-item
+              a(href='#')
+                i.fa.fa-envelope
+                |  info@hometastic.com
+            span.site-top-item
+              i.fa.fa-phone
+              |  0 800 55 55 123
+          .pull-right
+            .site-top-item
+              a(href='#')
+                i.fa.fa-user
+                |  Log in
+            .site-top-item
+              a(href='#')
+                i.fa.fa-pencil
+                |  Sign in
+            .site-top-item
+              form#form-top-search
+                input(type='text', name='s')
+                input(type='submit', value='Go')
+              a#form-top-search-trigger(href='#')
+                i.fa.fa-search
+        // .container
+      // .site-top
+      .main-menu
+        .container
+          img.pull-left.main-logo(alt='hometastic', src='images/logo.png')
+          .menu-button
+            i.fa.fa-reorder
+          nav.menu-container.underscore-container.menu-container-fade
+            ul
+              li
+                a(href='index.html') Home
+              li.active
+                a(href='property_listings.html') Listings
+              li
+                a(href='agents.html') Agents
+                ul
+                  li
+                    a(href='agents.html') John Doe
+                  li
+                    a(href='agents.html') Chris Rea
+                  li
+                    a(href='agents.html') Jessica Brown
+                  li
+                    a(href='agents.html') Hansom Rob
+              li
+                a(href='gallery.html') Gallery
+              li
+                a(href='blog_one_column.html') Blog
+                ul
+                  li
+                    a(href='blog_two_columns.html') Latest News
+                  li
+                    a(href='property_single.html') Latest Property
+                  li
+                    a(href='blog_single.html') Latest Post
+              li
+                a(href='contact.html') Contact
+            .underscore
+              .underscore-inner
+        // .container
+      // .main-menu
+    section
+      .section-content
+        .container
+          block content
+        // .container
+      // .section-content
+    footer#footer-section
+      a#to-top.scroll-to(href='#header-section')
+      .container.footer-info
+        .row
+          .col-md-6
+            .row
+              .col-sm-6.footer-column.onscroll-animate
+                h4
+                  img(alt='Hometastic', src='images/logo.png')
+                p
+                  | Alarmed at this terrible outburst between the two principal and responsible owners of the ship, and feeling half a mind to give up all idea of sailing in a vessel so questionably owned and temporarily commanded.
+                a.read-more-link-alt(href='#') Read more
+              .col-sm-6.footer-column.onscroll-animate(data-delay='400')
+                h4 Recent Posts
+                ul.list-links-simple
+                  li
+                    a(href='#') Lorem Post With Video Format
+                  li
+                    a(href='#') Example Video Image Post
+                  li
+                    a(href='#') Example Post With Portfolio Post Format
+                  li
+                    a(href='#') Example Post With Image Post Format
+                  li
+                    a(href='#') Lorem Ipsum Dolor Sit Amet
+            // .row
+          // .col-md-6
+          .col-md-6
+            .row
+              .col-sm-6.footer-column.font-normal.onscroll-animate(data-delay='600')
+                h4 Contact Info
+                .icon-opening-wrapper
+                  .icon-opening-container
+                    .icon-opening
+                      i.fa.fa-phone
+                    .icon-opening-content 0 800 123 456 88
+                .icon-opening-wrapper
+                  .icon-opening-container
+                    .icon-opening
+                      i.fa.fa-envelope
+                    .icon-opening-content haman.gates@hometastic.com
+                .icon-opening-wrapper
+                  .icon-opening-container
+                    .icon-opening
+                      i.fa.fa-globe
+                    .icon-opening-content 123 Park Avenue, New York, USA
+                .icon-opening-wrapper
+                  .icon-opening-container
+                    .icon-opening
+                      i.fa.fa-money
+                    .icon-opening-content 5,600 Sales done till now
+              .col-sm-6.footer-column.onscroll-animate(data-delay='800')
+                h4 Newsletter
+                p Subscribe for out newsletter, and we will keep you inform of new offers.
+                form#rss-subscribe.form-subscribe(action='http://ignitionthemes.eu/theme/homet/save_rss.php', method='post', data-email-not-set-msg='Email must be set', data-ajax-fail-msg='Ajax could not set the request', data-success-msg='Email successfully added')
+                  input(type='text', name='email', placeholder='your email...')
+                  .text-right
+                    input(type='submit', value='Submit')
+                  p.return-msg
+            // .row
+          // .col-md-6
+        // .row
+      // .container
+      .main-menu-alt
+        .container
+          .menu-button
+            i.fa.fa-reorder
+          nav#bottom-menu.menu-container.menu-container-slide
+            .underscore-container
+              ul
+                li.active
+                  a(href='#') Home
+                li
+                  a(href='#') Listings
+                li
+                  a(href='#') Agents
+                li
+                  a(href='#') News
+                li
+                  a(href='#') Gallery
+                li
+                  a(href='#') Blog
+                li
+                  a(href='#') Contact
+              .underscore
+                .underscore-inner
+        // .container
+      // .main-menu-alt
+      .site-info
+        .container
+          .row
+            .col-xs-6.onscroll-animate(data-animation='fadeInLeft')
+              p
+                | 2014 All rights Reserved. Made with 
+                i.red.fa.fa-heart-empty
+                |  by 
+                a(href='http://ignitionthemes.eu/')
+                  em IgnitionThemes
+            .col-xs-6.text-right.onscroll-animate(data-animation='fadeInRight')
+              .socials-wrapper
+                .social-round-container
+                  a(href='#')
+                    i.fa.fa-facebook
+                .social-round-container
+                  a(href='#')
+                    i.fa.fa-twitter
+                .social-round-container
+                  a(href='#')
+                    i.fa.fa-rss
+                .social-round-container
+                  a(href='#')
+                    i.fa.fa-pinterest
+                .social-round-container
+                  a(href='#')
+                    i.fa.fa-tumblr
+          // .row
+        // .container
+      // .site-info
+    script(type='text/javascript', src='scripts/jquery-1.11.2.min.js')
+    script(type='text/javascript', src='https://maps.googleapis.com/maps/api/js?v=3.exp')
+    script(type='text/javascript', src='scripts/bootstrap.min.js')
+    script(type='text/javascript', src='scripts/owl.carousel.min.js')
+    script(type='text/javascript', src='scripts/stroll.min.js')
+    script(type='text/javascript', src='scripts/jquery.flexslider-min.js')
+    script(type='text/javascript', src='scripts/lightbox.min.js')
+    script(type='text/javascript', src='scripts/jquery.scrollTo.min.js')
+    script(type='text/javascript', src='scripts/jquery.stellar.min.js')
+    script(type='text/javascript', src='scripts/jquery.inview.min.js')
+    script(type='text/javascript', src='scripts/custom.js')
+    script(type='text/javascript').
+      $(document).ready(function(e) {
+      var main_stylesheet = $('#main-stylesheet');
+      var theme_customizer = $('#theme-customizer');
+      var theme_stylesheets = $('.theme-stylesheet');
+      var theme_patterns = $('.theme-pattern');
+      $('#theme-customizer-trigger').on('click', function(e) {
+      theme_customizer.toggleClass('active');
+      });
+      theme_stylesheets.on('click', function(e) {
+      theme_stylesheets.removeClass('active');
+      main_stylesheet.attr('href', $(this).data('stylesheet'));
+      $(this).addClass('active');
+      });
+      theme_patterns.on('click', function(e) {
+      theme_patterns.removeClass('active');
+      $('body').css('background', $(this).data('background'));
+      $(this).addClass('active');
+      });
+      });
+    block userscript
