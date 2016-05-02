@@ -9,6 +9,7 @@ var session = require('express-session');
 var flash = require('connect-flash');
 
 var config_passport = require('./config/passport');
+var config_auth = require('./config/authorization');
 
 var indexes = require('./routes/index');
 

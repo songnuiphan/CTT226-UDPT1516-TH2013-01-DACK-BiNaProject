@@ -5,7 +5,16 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('./index');
+    if (req.isAuthenticated()) {
+        res.render('./index');
+    } else {
+        if (req.method == 'GET') req.session.returnTo = req.originalUrl;
+        res.redirect('/login');
+    }
+});
+
+router.get('/home', function(req, res, next) {
+    
 });
 
 /* GET signup page */
@@ -26,6 +35,11 @@ router.post('/register', function(req, res, next) {
 
 router.get('/login', function(req, res, next) {
     res.render('./user/login', {});
+});
+
+router.get('/logout', function(req, res, next) {
+    req.logout();
+    res.redirect('/login');
 });
 
 exports.router = router;
