@@ -8,6 +8,9 @@ var passport = require('passport');
 var session = require('express-session');
 var flash = require('connect-flash');
 
+var config_passport = require('./config/passport');
+var config_auth = require('./config/authorization');
+
 var indexes = require('./routes/index');
 
 // set app defaults
@@ -25,9 +28,28 @@ app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(session({
+    secret: 'BiNaProject',
+    resave: false,
+    saveUninitialized: false
+}));
+app.use(passport.initialize());
+app.use(passport.session());
 app.use(express.static(path.join(__dirname, 'public')));
+// connect flash for flash messages - should be declared after sessions
+app.use(flash());
 
-app.use('/', indexes);
+app.use('/', indexes.router);
+
+app.post('/login',
+    passport.authenticate('local', {
+        successRedirect: '/',
+        failureRedirect: '/login',
+        failureFlash: 'Invalid username or password.'
+    }), indexes.session
+);
+
+config_passport.config(passport);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

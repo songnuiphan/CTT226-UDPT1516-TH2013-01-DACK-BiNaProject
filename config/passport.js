@@ -16,7 +16,7 @@ exports.config = function(passport) {
     passport.deserializeUser(function(id, done) {
         User.load({
             criteria: { _id: id },
-            select: 'name email username status mood avatar friends blocks'
+            select: 'username email type name position birthday sex address phone passport nationality'
         }, function(err, user) {
             done(err, user);
         });

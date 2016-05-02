@@ -5,7 +5,16 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('./index');
+    if (req.isAuthenticated()) {
+        res.render('./index');
+    } else {
+        if (req.method == 'GET') req.session.returnTo = req.originalUrl;
+        res.redirect('/login');
+    }
+});
+
+router.get('/home', function(req, res, next) {
+    
 });
 
 /* GET signup page */
@@ -21,8 +30,33 @@ router.post('/register', function(req, res, next) {
         console.log('Signup: ' + err);
         console.log('Signup: ' + data);
     });
-    res.redirect('/');
+    res.redirect('/login');
 });
 
+router.get('/login', function(req, res, next) {
+    res.render('./user/login', {});
+});
 
-module.exports = router;
+router.get('/logout', function(req, res, next) {
+    req.logout();
+    res.redirect('/login');
+});
+
+exports.router = router;
+
+
+/**
+ * Session
+ */
+
+exports.session = login;
+
+/**
+ * Login
+ */
+
+function login(req, res) {
+    const redirectTo = req.session.returnTo ? req.session.returnTo : '/';
+    delete req.session.returnTo;
+    res.redirect(redirectTo);
+}
