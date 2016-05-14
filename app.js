@@ -12,6 +12,7 @@ var config_passport = require('./config/passport');
 var config_auth = require('./config/authorization');
 
 var indexes = require('./routes/index');
+var rooms = require('./routes/room');
 
 // set app defaults
 var server_ip_address = '0.0.0.0';
@@ -40,6 +41,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(flash());
 
 app.use('/', indexes.router);
+app.use('/room', rooms);
 
 app.post('/login',
     passport.authenticate('local', {
