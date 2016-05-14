@@ -1,4 +1,4 @@
-// grab the things we need
+/*// grab the things we need
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
@@ -20,4 +20,4 @@ var Room = mongoose.model('Room', roomSchema);
 
 
 // make this available to our messages in our Node applications
-module.exports = Room;
+module.exports = Room;*/
