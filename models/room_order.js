@@ -1,4 +1,4 @@
-// grab the things we need
+/*// grab the things we need
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
@@ -18,8 +18,8 @@ var roomOrderSchema = new Schema({
 
 // the schema is useless so far
 // we need to create a model using it
-var RoomOrder = mongoose.model('RoomOrder', roomOrder);
+var RoomOrder = mongoose.model('RoomOrder', roomOrderSchema);
 
 
 // make this available to our messages in our Node applications
-module.exports = RoomOrder;
+module.exports = RoomOrder;*/
