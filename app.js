@@ -18,7 +18,7 @@ var rooms = require('./routes/room');
 var server_ip_address = '0.0.0.0';
 var server_port = 3000;
 
-mongoose.connect('mongodb://panota.ddns.net:27017/bina'); // connect to our database
+mongoose.connect('mongodb://localhost:27017/bina'); // connect to our database
 var app = express();
 
 // view engine setup
