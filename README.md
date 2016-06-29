@@ -29,9 +29,9 @@ Danh sách chức năng **cơ bản**:
 * [ ] Quản lí hóa đơn (lập, tìm kiếm, xuất hóa đơn).
 
 * Phân hệ khách hàng:
-* [ ] Đăng ký tài khoản.
+* [x] Đăng ký tài khoản.
 * [ ] Khôi phục mật khẩu. 
-* [ ] Đăng nhập/ Đăng xuất. 
+* [x] Đăng nhập/ Đăng xuất. 
 * [ ] Tìm kiếm phòng khách sạn theo ngày đến, ngày đi.
 * [ ] Đặt phòng. 
 * [ ] Thanh toán. 
@@ -58,42 +58,42 @@ Danh sách chức năng **nâng cao**:
 * [ ] Git với Centralize Workflow. 
 * [ ] Git theo Feature Branch Workflow. 
 * [ ] Git theo Feature Branch Workflow có Pull Request. 
-* [ ] Git theo Gitflow Workflow. 
+* [x] Git theo Gitflow Workflow. 
 
 * Công nghệ:
 * [ ] Giải thích được lựa chọn xử lý tại client & server. 
-* [ ] Giải thích lý do sử dụng AJAX. 
+* [x] Giải thích lý do sử dụng AJAX. 
 * [ ] Đưa ra được nhiều hướng xử lý và so sánh. 
 * [ ] Đưa được nhiều loại trường hợp so sánh, lựa chọn công nghệ hay. 
 
 * Thiết kế:
 * [ ] Thiết kế theo table. 
-* [ ] Thiết kế với div. 
-* [ ] Thiết kế nâng cao với navigation, header, footer, sidebar. 
-* [ ] Hiệu ứng: hover, focus,...
-* [ ] Thiết kế hoàn chỉnh chạy trên nhiều trình duyệt. 
-* [ ] Icon, màu sắc. 
-* [ ] Thiết kế responsive. 
+* [x] Thiết kế với div. 
+* [x] Thiết kế nâng cao với navigation, header, footer, sidebar. 
+* [x] Hiệu ứng: hover, focus,...
+* [x] Thiết kế hoàn chỉnh chạy trên nhiều trình duyệt. 
+* [x] Icon, màu sắc. 
+* [x] Thiết kế responsive. 
 
 * Lập trình front-end:
-* [ ] Lập trình JS cơ bản. 
-* [ ] Lập trình JS thao tác DOM. Sử dụng sự kiện như hover, change, click, focus,...
-* [ ] Lập trình JS với animation
-* [ ] Sử dụng MVC và module
-* [ ] Sử dụng HTML 5 cơ bản: localstorage, session storage,... 
-* [ ] Áp dụng một số design pattern nâng cao. 
+* [x] Lập trình JS cơ bản. 
+* [x] Lập trình JS thao tác DOM. Sử dụng sự kiện như hover, change, click, focus,...
+* [x] Lập trình JS với animation
+* [x] Sử dụng MVC và module
+* [x] Sử dụng HTML 5 cơ bản: localstorage, session storage,... 
+* [x] Áp dụng một số design pattern nâng cao. 
 * [ ] Sử dụng HTML 5 nâng cao: File API. 
 * [ ] Áp dụng các thư viện JS phổ biến như: Angular JS, React,... 
 
 * Lập trình và kiến trúc web: 
-* [ ] Có làm và thao tác CSDL. 
-* [ ] Có làm với MVC. 
-* [ ] Tách xử lý logic ở model. 
+* [x] Có làm và thao tác CSDL. 
+* [x] Có làm với MVC. 
+* [x] Tách xử lý logic ở model. 
 * [ ] Sử dụng decorators để tách một số xử lý liên quan giao diện khỏi model. 
 * [ ] Sử dụng thêm nhiều mẫu thiết kế presenter, decorators, strategy để phân chia rõ hơn trách nhiệm các lớp trong MVC. 
 
 * AJAX: 
-* [ ] Có làm. 
+* [x] Có làm. 
 * [ ] Lập trình AJAX với JSON. 
 * [ ] Lập trình AJAX với các callback success, error. 
 * [ ] Sử dụng một số design pattern để thiết kế lớp truy xuất API. 
@@ -123,13 +123,91 @@ Danh sách chức năng **nâng cao**:
 * [ ] Sử dụng nhiều API. 
 
 * Sử dụng frameworks: 
-* [ ] jQuery. 
-* [ ] CSS framework: bootstrap, foundation,...
+* [x] jQuery. 
+* [x] CSS framework: bootstrap, foundation,...
 * [ ] Backend Framework: MEAN, Sails, Meteor. 
 * [ ] Front-end Framework: Angular JS 1, Angular JS 2, Ember, Backbone, React,... 
 * [ ] Front-end Framework: Angular JS 1, Angular JS 2, Ember, Backbone, React,...
 
-## Video Walkthrough
+##Chuẩn đầu ra của từng thành viên:
+* 1312379 Nguyễn Thị Bích Ngân
+* Chức năng thực hiện: 
+* [x] Đăng ký tài khoản.
+* [x] Đăng nhập/ Đăng xuất. 
+
+* Đánh giá:
+
+Tiêu chí | Kết quả đạt được
+-------- | ----------------
+Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
+Công nghệ | AJAX
+Thiết kế | Thiết kế với div, thiết kế nâng cao với navigation, header, footer, sidebar, hiệu ứng: hover, focus,... thiết kế hoàn chỉnh chạy trên nhiều trình duyệt, Icon, màu sắc, thiết kế responsive. 
+Lập trình front-end | Lập trình JS cơ bản, lập trình JS thao tác DOM. Sử dụng sự kiện như hover, change, click, focus,... Lập trình JS với animation. Sử dụng MVC và module. Sử dụng HTML 5 cơ bản: localstorage, session storage,... Áp dụng một số design pattern nâng cao. 
+Lập trình và kiến trúc web | Có làm và thao tác CSDL. Có làm với MVC. Tách xử lý logic ở model. 
+AJAX | Có làm. 
+Web API | Không
+Bảo mật | Không
+API bên ngoài | Không 
+Sử dụng frameworks | jQuery. CSS framework: bootstrap, foundation,...
+
+* 1212015 Phan Long Ánh
+* Chức năng thực hiện:
+
+* Đánh giá:
+
+Tiêu chí | Kết quả đạt được
+---------| ----------------
+Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
+Công nghệ | Không
+Thiết kế | Không
+Lập trình front-end | Không
+Lập trình và kiến trúc web | Không
+AJAX | Không
+Web API | Không
+Bảo mật | Không
+API bên ngoài | Không
+Sử dụng frameworks | Không
+
+* 1212535 Bùi Thị Thanh Xuân
+* Chức năng thực hiện: 
+
+* Đánh giá:
+
+Tiêu chí | Kết quả đạt được
+---------| ----------------
+Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
+Công nghệ | Không
+Thiết kế | Không
+Lập trình front-end | Không
+Lập trình và kiến trúc web | Không
+AJAX | Không
+Web API | Không
+Bảo mật | Không
+API bên ngoài | Không
+Sử dụng frameworks | Không
+
+* 1212283 Phan Sông Núi
+* Chức năng thực hiện: 
+* Đánh giá:
+
+Tiêu chí | Kết quả đạt được
+---------| ----------------
+Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
+Công nghệ | Không
+Thiết kế | Không
+Lập trình front-end | Không
+Lập trình và kiến trúc web | Không
+AJAX | Không
+Web API | Không
+Bảo mật | Không
+API bên ngoài | Không
+Sử dụng frameworks | Không
+
+##  Wireframe:
+
+##  Data schema:
+
+## Video Demo:
 
 Here's a walkthrough of implemented user stories:
 
