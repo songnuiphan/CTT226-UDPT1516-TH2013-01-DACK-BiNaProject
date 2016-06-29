@@ -52,7 +52,7 @@ function addHoaDon(id, MaNV, MaKH, TongTien)
 {
 	var HoaDon = getAllHoaDon();
 	HoaDon.push({
-	id:		id,
+	id:			id,
 	MaNV:		MaNV,
 	MaKH:		MaKH,
 	TongTien:	TongTien
