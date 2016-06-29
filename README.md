@@ -134,7 +134,8 @@ Danh sách chức năng **nâng cao**:
 Chức năng thực hiện: 
 * [x] Đăng ký tài khoản.
 * [x] Đăng nhập/ Đăng xuất. 
-*Đánh giá:*
+
+Đánh giá:
 
 Tiêu chí | Kết quả đạt được
 -------- | ----------------
@@ -150,8 +151,8 @@ API bên ngoài | Không
 Sử dụng frameworks | jQuery. CSS framework: bootstrap, foundation,...
 
 * 1212015 Phan Long Ánh*
-*Chức năng thực hiện: *
-*Đánh giá:*
+Chức năng thực hiện:
+Đánh giá:
 
 Tiêu chí | Kết quả đạt được
 ---------| ----------------
@@ -167,9 +168,9 @@ API bên ngoài | Không
 Sử dụng frameworks | Không
 
 * 1212535 Bùi Thị Thanh Xuân
-*Chức năng thực hiện: *
-
+Chức năng thực hiện: 
 Đánh giá:
+
 Tiêu chí | Kết quả đạt được
 ---------| ----------------
 Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
@@ -185,8 +186,8 @@ Sử dụng frameworks | Không
 
 * 1212283 Phan Sông Núi
 Chức năng thực hiện: 
-
 Đánh giá:
+
 Tiêu chí | Kết quả đạt được
 ---------| ----------------
 Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
