@@ -6,7 +6,7 @@
 
 * 1312379 Nguyễn Thị Bích Ngân
 * 1212015 Phan Long Ánh
-* 1212535 Bùi Thị Thanh Xuân
+* 1212535 Vũ Thị Thanh Xuân
 * 1212283 Phan Sông Núi
 
 URL: http://panoti.me/
@@ -173,7 +173,7 @@ Bảo mật | Không
 API bên ngoài | Không
 Sử dụng frameworks | Không
 
-* 1212535 Bùi Thị Thanh Xuân
+* 1212535 Vũ Thị Thanh Xuân
 * Chức năng thực hiện: 
 * [x] Quản lí hóa đơn (lập, tìm kiếm, xuất hóa đơn).
 
