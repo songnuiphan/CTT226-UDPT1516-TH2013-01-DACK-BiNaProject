@@ -206,6 +206,23 @@ Sử dụng frameworks | Không
 ##  Wireframe:
 
 ##  Data schema:
+* 1. Tài khoản:
+* TAIKHOAN (username, password, eMail, loaiTK)
+* NHANVIEN (maNV, tenNV, chucVu, gioiTinh, diaChi, soDienThoai)
+* KHACHHANG (maKH, tenKH, diaChi, gioiTinh, soCMND, soDienThoai, quocTich)
+* users(username, password, email, type, name, position, sex, address, phone, passport, nationality)
+* 2. Đăng ký phòng:
+* PHIEUDANGKY (maPDK, maNV, maKH,NgayDangKi )
+* CTPHIEUDANGKY(maCTPDK, maPDK,MaPhong, ngayDen, gioDen, ngayDi, gioDi, SoNguoi)
+* 3. Thanh toán:
+* HOADON (maHD,maNV,maKH,NgayLapHoaDon,ThueVAT,  TongTienHD)
+* CTHoaDon (maCTHD, MaHD, maCTPDK, SoNgayO, TongTienCT, SoTienPhaiTra)
+* 4. Phòng
+* PHONG (maPhong,  tinhTrang, LoaiPhong)
+* CTLOAIPHONG(maLoaiPhong, GiaTien, SoNguoi, MoTa, DienTich)
+* 5. Hậu mãi
+* KHUYENMAI(maKM,MoTa)
+* CTKHUYENMAI(maKM, NgayApDung, NgayKetThuc,LoaiPhong, TiLeGiamGia(%))
 
 ## Video Demo:
 
