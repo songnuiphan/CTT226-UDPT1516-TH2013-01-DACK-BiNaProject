@@ -15,10 +15,10 @@ var indexes = require('./routes/index');
 var rooms = require('./routes/room');
 
 // set app defaults
-var server_ip_address = '0.0.0.0';
+var server_ip_address = '127.0.0.1';
 var server_port = 3000;
 
-mongoose.connect('mongodb://localhost:27017/bina'); // connect to our database
+mongoose.connect('mongodb://songnuiphan:Sn123456@ds023704.mlab.com:23704/bina'); // connect to our database
 var app = express();
 
 // view engine setup
@@ -85,5 +85,5 @@ app.use(function(err, req, res, next) {
 
 // lift the app
 app.listen(server_port, server_ip_address, function() {
-    console.log('N2Messenger listening on host: http://' + server_ip_address + ':' + server_port);
+    console.log('BiNa Manager listening on host: http://' + server_ip_address + ':' + server_port);
 });
