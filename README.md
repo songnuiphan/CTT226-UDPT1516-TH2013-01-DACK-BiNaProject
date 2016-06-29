@@ -3,10 +3,11 @@
 **BiNaManager** Đây là trang web quản lý của khách sạn "BiNa Hotel" được viết bởi nhóm BiNa . Thời gian nộp: Theo Timeline của project.
 
 * Danh sách sinh viên: 
+
+* 1312379 Nguyễn Thị Bích Ngân
 * 1212015 Phan Long Ánh
 * 1212535 Bùi Thị Thanh Xuân
 * 1212283 Phan Sông Núi
-* 1312379 Nguyễn Thị Bích Ngân
 
 URL: http://panoti.me/
 ## Mô tả
