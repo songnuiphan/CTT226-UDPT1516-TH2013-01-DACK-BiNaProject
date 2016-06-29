@@ -135,8 +135,9 @@ Chức năng thực hiện:
 * [x] Đăng ký tài khoản.
 * [x] Đăng nhập/ Đăng xuất. 
 *Đánh giá:
+
 Tiêu chí | Kết quả đạt được
------------- | -------------
+-------- | ----------------
 Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
 Công nghệ | AJAX
 Thiết kế | Thiết kế với div, thiết kế nâng cao với navigation, header, footer, sidebar, hiệu ứng: hover, focus,... thiết kế hoàn chỉnh chạy trên nhiều trình duyệt, Icon, màu sắc, thiết kế responsive. 
