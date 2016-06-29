@@ -8,7 +8,7 @@
 * 1212283 Phan Sông Núi
 * 1312379 Nguyễn Thị Bích Ngân
 
-URL: **Our Heroku URL will be here**
+URL: **http://panoti.me/**
 ## Mô tả
 
 Tin học hóa các quy trình nghiệp vụ quản lý diễn ra tại một khách sạn. 
