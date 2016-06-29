@@ -141,7 +141,7 @@ Tiêu chí | Kết quả đạt được
 Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
 Công nghệ | AJAX
 Thiết kế | Thiết kế với div, thiết kế nâng cao với navigation, header, footer, sidebar, hiệu ứng: hover, focus,... thiết kế hoàn chỉnh chạy trên nhiều trình duyệt, Icon, màu sắc, thiết kế responsive. 
-Lập trình front-end, lập trình JS cơ bản, lập trình JS thao tác DOM. Sử dụng sự kiện như hover, change, click, focus,... Lập trình JS với animation. Sử dụng MVC và module. Sử dụng HTML 5 cơ bản: localstorage, session storage,... Áp dụng một số design pattern nâng cao. 
+Lập trình front-end | Lập trình JS cơ bản, lập trình JS thao tác DOM. Sử dụng sự kiện như hover, change, click, focus,... Lập trình JS với animation. Sử dụng MVC và module. Sử dụng HTML 5 cơ bản: localstorage, session storage,... Áp dụng một số design pattern nâng cao. 
 Lập trình và kiến trúc web | Có làm và thao tác CSDL. Có làm với MVC. Tách xử lý logic ở model. 
 AJAX | Có làm. 
 Web API | Không
@@ -154,51 +154,51 @@ Chức năng thực hiện:
 
 Đánh giá:
 Tiêu chí | Kết quả đạt được
------------- | -------------
+---------| ----------------
 Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
-Công nghệ | 
-Thiết kế | 
-Lập trình front-end | 
-Lập trình và kiến trúc web | 
-AJAX | 
-Web API | 
-Bảo mật | 
-API bên ngoài | 
-Sử dụng frameworks | 
+Công nghệ | Không
+Thiết kế | Không
+Lập trình front-end | Không
+Lập trình và kiến trúc web | Không
+AJAX | Không
+Web API | Không
+Bảo mật | Không
+API bên ngoài | Không
+Sử dụng frameworks | Không
 
 * 1212535 Bùi Thị Thanh Xuân
 Chức năng thực hiện: 
 
 Đánh giá:
 Tiêu chí | Kết quả đạt được
------------- | -------------
+---------| ----------------
 Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
-Công nghệ | 
-Thiết kế | 
-Lập trình front-end | 
-Lập trình và kiến trúc web | 
-AJAX | 
-Web API | 
-Bảo mật | 
-API bên ngoài | 
-Sử dụng frameworks | 
+Công nghệ | Không
+Thiết kế | Không
+Lập trình front-end | Không
+Lập trình và kiến trúc web | Không
+AJAX | Không
+Web API | Không
+Bảo mật | Không
+API bên ngoài | Không
+Sử dụng frameworks | Không
 
 * 1212283 Phan Sông Núi
 Chức năng thực hiện: 
 
 Đánh giá:
 Tiêu chí | Kết quả đạt được
------------- | -------------
+---------| ----------------
 Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
-Công nghệ | 
-Thiết kế | 
-Lập trình front-end | 
-Lập trình và kiến trúc web | 
-AJAX | 
-Web API | 
-Bảo mật | 
-API bên ngoài | 
-Sử dụng frameworks | 
+Công nghệ | Không
+Thiết kế | Không
+Lập trình front-end | Không
+Lập trình và kiến trúc web | Không
+AJAX | Không
+Web API | Không
+Bảo mật | Không
+API bên ngoài | Không
+Sử dụng frameworks | Không
 
 
 wi
