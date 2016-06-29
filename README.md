@@ -27,7 +27,7 @@ Danh sách chức năng **cơ bản**:
 * [ ] Quản lí phòng. 
 * [ ] Thống kê, báo cáo doanh thu kết thúc ca làm việc. 
 * [ ] Thống kê, báo cáo doanh thu hàng tháng.
-* [ ] Quản lí hóa đơn (lập, tìm kiếm, xuất hóa đơn).
+* [x] Quản lí hóa đơn (lập, tìm kiếm, xuất hóa đơn).
 
 * Phân hệ khách hàng:
 * [x] Đăng ký tài khoản.
@@ -175,6 +175,7 @@ Sử dụng frameworks | Không
 
 * 1212535 Bùi Thị Thanh Xuân
 * Chức năng thực hiện: 
+* [x] Quản lí hóa đơn (lập, tìm kiếm, xuất hóa đơn).
 
 * Đánh giá:
 
