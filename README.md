@@ -187,8 +187,8 @@ API bên ngoài | Không
 Sử dụng frameworks | Không
 
 * 1212283 Phan Sông Núi
-Chức năng thực hiện: 
-Đánh giá:
+* Chức năng thực hiện: 
+* Đánh giá:
 
 Tiêu chí | Kết quả đạt được
 ---------| ----------------
@@ -203,10 +203,16 @@ Bảo mật | Không
 API bên ngoài | Không
 Sử dụng frameworks | Không
 
+##  wireframe:
 
-wiframe
+##  Data schema:
 
-## Video Walkthrough
+
+
+
+
+
+## Video Demo:
 
 Here's a walkthrough of implemented user stories:
 
