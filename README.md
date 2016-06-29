@@ -131,7 +131,7 @@ Danh sách chức năng **nâng cao**:
 
 ##Chuẩn đầu ra của từng thành viên:
 * 1312379 Nguyễn Thị Bích Ngân
-Chức năng thực hiện: 
+* Chức năng thực hiện: 
 * [x] Đăng ký tài khoản.
 * [x] Đăng nhập/ Đăng xuất. 
 
