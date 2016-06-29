@@ -19,7 +19,7 @@ Mục đích của hệ thống này là giảm tới mức tối thiểu các c
 
 Danh sách chức năng **cơ bản**:
 * Phân hệ Admin:
-* [ ] Quản lý tài khoản người dùng.
+* [x] Quản lý tài khoản người dùng.
 
 * Phân hệ Quản lý: 
 * [ ] Quản lí khách hàng.
@@ -31,10 +31,10 @@ Danh sách chức năng **cơ bản**:
 
 * Phân hệ khách hàng:
 * [x] Đăng ký tài khoản.
-* [ ] Khôi phục mật khẩu. 
+* [x] Khôi phục mật khẩu. 
 * [x] Đăng nhập/ Đăng xuất. 
-* [ ] Tìm kiếm phòng khách sạn theo ngày đến, ngày đi.
-* [ ] Đặt phòng. 
+* [x] Tìm kiếm phòng khách sạn theo ngày đến, ngày đi.
+* [x] Đặt phòng. 
 * [ ] Thanh toán. 
 
 
@@ -134,7 +134,11 @@ Danh sách chức năng **nâng cao**:
 * 1312379 Nguyễn Thị Bích Ngân
 * Chức năng thực hiện: 
 * [x] Đăng ký tài khoản.
-* [x] Đăng nhập/ Đăng xuất. 
+* [x] Đăng nhập/ Đăng xuất.
+* [x] Quản lý tài khoản người dùng.
+* [x] Khôi phục mật khẩu. 
+* [x] Đặt phòng. 
+* [x] Tìm kiếm phòng khách sạn theo ngày đến, ngày đi.
 
 * Đánh giá:
 
