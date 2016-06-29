@@ -129,6 +129,79 @@ Danh sách chức năng **nâng cao**:
 * [ ] Front-end Framework: Angular JS 1, Angular JS 2, Ember, Backbone, React,... 
 * [ ] Front-end Framework: Angular JS 1, Angular JS 2, Ember, Backbone, React,...
 
+##Chuẩn đầu ra của từng thành viên:
+* 1312379 Nguyễn Thị Bích Ngân
+Chức năng thực hiện: 
+* [x] Đăng ký tài khoản.
+* [x] Đăng nhập/ Đăng xuất. 
+Đánh giá:
+Tiêu chí | Kết quả đạt được
+------------ | -------------
+Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
+Công nghệ | AJAX
+Thiết kế | Thiết kế với div, thiết kế nâng cao với navigation, header, footer, sidebar, hiệu ứng: hover, focus,... thiết kế hoàn chỉnh chạy trên nhiều trình duyệt, Icon, màu sắc, thiết kế responsive. 
+Lập trình front-end, lập trình JS cơ bản, lập trình JS thao tác DOM. Sử dụng sự kiện như hover, change, click, focus,... Lập trình JS với animation. Sử dụng MVC và module. Sử dụng HTML 5 cơ bản: localstorage, session storage,... Áp dụng một số design pattern nâng cao. 
+Lập trình và kiến trúc web | Có làm và thao tác CSDL. Có làm với MVC. Tách xử lý logic ở model. 
+AJAX | Có làm. 
+Web API | 
+Bảo mật | 
+API bên ngoài | 
+Sử dụng frameworks | jQuery. CSS framework: bootstrap, foundation,...
+
+* 1212015 Phan Long Ánh
+Chức năng thực hiện: 
+
+Đánh giá:
+Tiêu chí | Kết quả đạt được
+------------ | -------------
+Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
+Công nghệ | 
+Thiết kế | 
+Lập trình front-end | 
+Lập trình và kiến trúc web | 
+AJAX | 
+Web API | 
+Bảo mật | 
+API bên ngoài | 
+Sử dụng frameworks | 
+
+* 1212535 Bùi Thị Thanh Xuân
+Chức năng thực hiện: 
+
+Đánh giá:
+Tiêu chí | Kết quả đạt được
+------------ | -------------
+Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
+Công nghệ | 
+Thiết kế | 
+Lập trình front-end | 
+Lập trình và kiến trúc web | 
+AJAX | 
+Web API | 
+Bảo mật | 
+API bên ngoài | 
+Sử dụng frameworks | 
+
+* 1212283 Phan Sông Núi
+Chức năng thực hiện: 
+
+Đánh giá:
+Tiêu chí | Kết quả đạt được
+------------ | -------------
+Hoạt động nhóm | Sử dụng Git theo Gitflow Workflow
+Công nghệ | 
+Thiết kế | 
+Lập trình front-end | 
+Lập trình và kiến trúc web | 
+AJAX | 
+Web API | 
+Bảo mật | 
+API bên ngoài | 
+Sử dụng frameworks | 
+
+
+wi
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
